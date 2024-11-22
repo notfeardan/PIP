@@ -8,9 +8,21 @@ body {
   margin: 0;
   height: 100vh;
   display: flex;
-  justify-self: center;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: rgb(37, 37, 37);
+}
+h2 {
+  font-family: "Bebas Neue", serif;
+  color: white;
+  letter-spacing: 3px;
+}
+.social-container {
+  margin-top: 15px;
+}
+#github {
+  margin-right: 20px;
 }
 
 .button-container {
